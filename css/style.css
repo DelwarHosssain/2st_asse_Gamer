@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans',   sans-serif;
+}
+.main-nav{
+    width: 100%;
+    height: 130px;
+    background-color: #F4F4F4;
+    padding: 0 ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.nav-headig{
+    display: flex;
+    
+}
+.span-color{
+    color: #ff42a5;
+}
+.game-text{
+    font-family: Work Sans;
+    font-size: 45px;
+    font-weight: 700;
+    padding-left: 20px;
+    
+}
+.menu-itam{
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    margin: 10px;
+}
+.menu li {
+    display: inline;
+    
+     
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 20px;
+}
+.size-fix li {
+    display: inline;
+    
+     
+}
+
+.size-fix li a{
+    text-decoration: none;
+    color: #3C354F;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.size-fix {
+    background-color:#e7e6e9 ; 
+    padding: 10px;
+    border-radius: 8px;
+    
+}
+.fa-brands1{
+    color: red;
+}
+@media screen and (max-width:575px) {
+    /*  */
+    .main-nav{ 
+        flex-direction: column;
+        height: 250px;
+        
+    }
+    .menu{
+        margin-left: 30px;
+    }
+    .menu-itam{
+        flex-direction: column;
+    }
+    .menu li {
+        display: block;
+        padding: 5px;
+    }
+    .nav-headig{
+        margin-top: 30px;
+        
+    }
+    .nav-headig h1{
+        font-size: 2em;
+    }
+}
