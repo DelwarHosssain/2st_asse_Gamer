@@ -69,11 +69,13 @@
 .fa-brands1{
     color: red;
 }
+/* mobile */
 @media screen and (max-width:575px) {
-    /*  */
+    /* nav-data */
     .main-nav{ 
         flex-direction: column;
         height: 250px;
+        background-color: #ffffff;
         
     }
     .menu{
@@ -93,4 +95,20 @@
     .nav-headig h1{
         font-size: 2em;
     }
+    /* nav end */
+}
+/* tab */
+@media screen and (min-width:575px) and (max-width:768px){
+    /* nav */
+    .main-nav{ 
+        flex-direction: column;
+        height: 250px;    
+    }
+    .menu{
+        margin-left: 30px;
+    }
+    .nav-headig{
+        margin-top: 30px;
+    }
+       /* nav end */
 }
