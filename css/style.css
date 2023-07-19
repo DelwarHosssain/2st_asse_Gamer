@@ -69,6 +69,82 @@
 .fa-brands1{
     color: red;
 }
+
+/* nav end */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+.banner1{
+    background-image: url(/images/Group\ 14.png);
+    background-position: 100%;
+    height: 700px;
+    width: 50%;
+}
+.banner-text{
+    padding-left: 150px;
+    
+}
+.fast-text{
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top:150px ;
+    
+}
+.sec-text {
+    font-size: 95px;
+    font-weight: 800;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.banner-img{
+    width: 50%;
+    padding:0 150px;
+    
+}
+.image-fix img{
+    width: 100%;
+    
+    
+    
+}
+
+.banner-text {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: lowercase;
+    margin-top: ;
+    
+}
+.button-com{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 21px 40px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    border: none;
+    
+}
+.button-section{
+    margin-top: 50px;
+    
+}
+.button-section a{
+    text-decoration: none;
+}
+
+
+
 /* mobile */
 @media screen and (max-width:575px) {
     /* nav-data */
@@ -96,6 +172,12 @@
         font-size: 2em;
     }
     /* nav end */
+    /* banner */
+    .banner{
+        flex-direction: inl;
+        
+    }
+
 }
 /* tab */
 @media screen and (min-width:575px) and (max-width:768px){
