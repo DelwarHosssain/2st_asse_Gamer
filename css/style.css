@@ -246,23 +246,21 @@
     font-weight: 600;
     margin-left: 10px;
 } 
-/* footer */
-.fast-fooder{
-    height: 436px;
+
+.all-itame1{
+    width: 100%;
+    height: 400px;
     background: #0B0223;
-  
-}
-.all-itame{
-    padding-left: 335px;
-    padding-top: 117px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 100px;
 }
 .food-haed{
     display: flex;
-    padding-left: 20px;
-    
+    justify-content: center;
 }
 .list-footer{
-    
+    margin-top: 30px;
 }
 .list-footer li{
     display: inline;
@@ -272,6 +270,13 @@
 .list-footer li a{
     color: #ffffff;
     text-decoration: none;
+    color: #FFF;
+    font-size: 1em;
+    font-weight: 600;
+}
+/* icone */
+.icone3{
+    margin-top: 30px;
 }
 .icone3 li{
     display: inline;
@@ -280,18 +285,30 @@
 }
 .icone3 li a{
     text-decoration: none;
+    
+}
+.terms-and-onditions{
+    margin-top: 30px;
 }
 .terms-and-onditions li{
     display: inline;
     padding: 20px;
 }
 .terms-and-onditions li a{
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
 }
 .copyright{
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.60);
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    
 }
+    
 /* Moble Rsponsive */
 
 @media screen and (max-width:575px){
@@ -314,6 +331,7 @@
     }
     .nav-headig{
         margin-top: 30px;
+        
         
     }
     .nav-headig h1{
@@ -404,6 +422,11 @@
         padding: 40px 90px;
         gap: 20px;
     }
+    /* footer */
+    .list-footer{
+        padding: 10px;
+    }
+    
 }
 
 /* tab */
