@@ -225,7 +225,7 @@
     padding: 50px 125px;
     display: flex;  
     flex-wrap: wrap;
-    grid-template-columns: repeat(2 , 1fr);
+
 }
 .warp-img{
     display: flex;
@@ -359,7 +359,14 @@
     bottom: 138px;
     right: 51px;
     }
+    /* wrap */
+    .main-rap{
+        height: 700px;
+        padding: 40px 90px;
+        gap: 20px;
+    }
 }
+
 /* tab */
 @media screen and (min-width:575px) and (max-width:768px){
     /* nav */
@@ -447,5 +454,9 @@
     }
     .extra-img{
         width: 40%;
+    }
+    .main-rap{
+        gap: 20px;
+        padding: 40px 90px;
     }
 }
