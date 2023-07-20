@@ -176,39 +176,79 @@
 /* hurse */
 .hourse-section{
     display: flex;
-    padding:20px 175px;
+    justify-content: center;
     align-items: center;
-    
+
 }
 .text-manu{
-    margin-bottom: 100px;
+    margin-bottom: 220px;
+    
 }
 .text-manu h3{
     text-align: right;
-    font-size: 2em;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 40px;
+    padding:0 227px;
 }
-.text-manu{
-    color: #534C64;
+.text-manu p{
     text-align: right;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+    font-size: 14px;
+    font-weight: 700;
+    padding:0 227px;
+    
 }
-.hours-img img{ 
-    width: 70%;
-    padding-left: 225px;
+.hours-img{
+   
+    
 }
-.man-hours-img{
+.hours-img img{
+    width: 60%;
+    margin-right:200px;
+    margin-top: 100px;
+
+}
+.extra-img{
     position: relative;
-    bottom: 200px;
-    right: 100px;
-    width: 50%;
-
+    bottom: 248px;
+    right: 82px;
 }
-/* hurse */
+.extra-img{
+    width: 50%;
+}
+/* hurse  end*/
 
+/* warp */
+.main-rap{
+    height: 300px;
+    margin-top: -100px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03));
+    padding: 50px 125px;
+    display: flex;  
+    flex-wrap: wrap;
+    grid-template-columns: repeat(2 , 1fr);
+}
+.warp-img{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    background: #FFF;
+    width: 215px;
+    height: 31px;
+    padding: 20px;
+    
+}
+.warp-img a:hover{
+    color: red;
+}
+.warp-img:hover{
+    border: 1px solid red;
+}
+.warp-img h3 a{
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 600;
+    margin-left: 10px;
+}
 
 /* Moble Rsponsive */
 
@@ -263,7 +303,6 @@
     .game-phot img{
         visibility: visible;
         padding-left:0;
-        
         width: 100%;
 
     }
@@ -288,12 +327,39 @@
     /* new section end */
 
     /* hours */
-    
-}
-    
-    
 
-    
+    .hourse-section{
+    flex-direction: column;
+    align-items: center;
+    }
+    .text-manu{
+    margin-bottom: 0px;
+    }
+    .text-manu h3{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: 700;
+    padding:0 50px;
+    }
+    .text-manu p{
+    text-align: center;
+    font-size: 1empx;
+    font-weight: 700;
+    padding:0 50px;
+    }
+    .hours-img{
+     
+    }
+    .hours-img img{
+    margin-right:0px;
+    margin-top: 30px;
+    margin-left: 100px;
+    }
+    .extra-img{
+    bottom: 138px;
+    right: 51px;
+    }
+}
 /* tab */
 @media screen and (min-width:575px) and (max-width:768px){
     /* nav */
@@ -326,7 +392,6 @@
     }
     .game-phot{
         height: 215px;
-        
     }
 
     /* new */
@@ -346,9 +411,41 @@
     }
     .font-14{
         padding: 11px;
+    } 
+    /* hours  */
+    .hourse-section{
+        flex-direction: column;
+        align-items: center;
     }
-    
-
+    .text-manu{
+        margin-bottom: 0px;
+    }
+    .text-manu h3{
+        text-align: center;
+        font-size: 3.5em;
+        font-weight: 700;
+        padding:0 155px;
+    }
+    .text-manu p{
+        text-align: center;
+        font-size: 1empx;
+        font-weight: 700;
+        padding:0 50px;
+    }
+    .hours-img{
+        width: 100%;
+        margin-left: 95px;  
+    }
+    .hours-img img{
+        margin-right:0px;
+        margin-top: 30px;
+        margin-left: 100px;
+    }
+    .extra-img{
+        bottom: 225px;
+        right: 73px;
+    }
+    .extra-img{
+        width: 40%;
+    }
 }
-
-
