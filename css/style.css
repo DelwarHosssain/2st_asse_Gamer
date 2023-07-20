@@ -197,10 +197,7 @@
     padding:0 227px;
     
 }
-.hours-img{
-   
-    
-}
+
 .hours-img img{
     width: 60%;
     margin-right:200px;
@@ -248,8 +245,53 @@
     font-size: 20px;
     font-weight: 600;
     margin-left: 10px;
+} 
+/* footer */
+.fast-fooder{
+    height: 436px;
+    background: #0B0223;
+  
 }
-
+.all-itame{
+    padding-left: 335px;
+    padding-top: 117px;
+}
+.food-haed{
+    display: flex;
+    padding-left: 20px;
+    
+}
+.list-footer{
+    
+}
+.list-footer li{
+    display: inline;
+    padding: 20px;
+    
+}
+.list-footer li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.icone3 li{
+    display: inline;
+    padding: 20px;
+    font-size: 2em;
+}
+.icone3 li a{
+    text-decoration: none;
+}
+.terms-and-onditions li{
+    display: inline;
+    padding: 20px;
+}
+.terms-and-onditions li a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.copyright{
+    color: #ffffff;
+}
 /* Moble Rsponsive */
 
 @media screen and (max-width:575px){
@@ -346,9 +388,6 @@
     font-size: 1empx;
     font-weight: 700;
     padding:0 50px;
-    }
-    .hours-img{
-     
     }
     .hours-img img{
     margin-right:0px;
